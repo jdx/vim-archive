@@ -15,6 +15,7 @@ syntax on
 
 " Whitespace stuff
 set nowrap
+set fo-=t "Unset automatic wrapping
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -199,12 +200,6 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
     \| exe "normal g'\"" | endif
 endif
-
-function s:setupWrapping()
-  set wrap
-  set wm=2
-  set textwidth=72
-endfunction
 
 function s:setupMarkup()
   call s:setupWrapping()
