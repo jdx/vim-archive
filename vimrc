@@ -1,8 +1,13 @@
 set nocompatible
 let mapleader = ","
+
+" Map F1 to escape so it doesn't load help
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
+
+" Map ; to : so I don't have to press shift
+nnoremap ; :
 
 set number
 set ruler
