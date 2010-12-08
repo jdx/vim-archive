@@ -205,6 +205,12 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
+function s:setupWrapping()
+  set wrap
+  set wm=2
+  set tw=80
+endfunction
+
 function s:setupMarkup()
   call s:setupWrapping()
   map <buffer> <Leader>p :Mm <CR>
