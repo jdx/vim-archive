@@ -13,6 +13,10 @@ set number
 set ruler
 syntax on
 
+" Syntastic
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+
 " Whitespace stuff
 set nowrap
 set fo-=t "Unset automatic wrapping
