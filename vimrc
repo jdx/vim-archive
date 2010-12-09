@@ -9,6 +9,8 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+" Map arrow keys
+
 set number
 set ruler
 syntax on
