@@ -1,3 +1,6 @@
+" Pathogen
+call pathogen#runtime_append_all_bundles()
+
 set nocompatible
 let mapleader = ","
 
@@ -12,9 +15,6 @@ nnoremap ; :
 set number
 set ruler
 syntax on
-
-" Pathogen
-call pathogen#runtime_append_all_bundles()
 
 " Syntastic
 let g:syntastic_enable_signs=1
@@ -77,9 +77,9 @@ function s:setupMarkup()
 endfunction
 
 " Ruby
-au FileType ruby haml sass scss less set tabstop=2
-au FileType ruby haml sass scss less set shiftwidth=2
-au FileType ruby haml sass scss less set softtabstop=2
+au BufRead,BufNewFile FileType ruby haml sass scss less set tabstop=2
+au BufRead,BufNewFile FileType ruby haml sass scss less set shiftwidth=2
+au BufRead,BufNewFile FileType ruby haml sass scss less set softtabstop=2
 
 " Thorfile, Rakefile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
