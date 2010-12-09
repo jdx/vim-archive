@@ -1,3 +1,6 @@
 [submodule "bundle/cocoa"]
 	path = bundle/cocoa
 	url = https://github.com/msanders/cocoa.vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
