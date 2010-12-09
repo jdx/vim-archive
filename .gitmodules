@@ -22,3 +22,9 @@
 [submodule "bundle/git"]
 	path = bundle/git
 	url = https://github.com/tpope/vim-git.git
+[submodule "bundle/haml"]
+	path = bundle/haml
+	url = https://github.com/tpope/vim-haml.git
+[submodule "indent_object"]
+	path = indent_object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
