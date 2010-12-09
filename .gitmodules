@@ -28,3 +28,6 @@
 [submodule "indent_object"]
 	path = indent_object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
+[submodule "bundle/javascript"]
+	path = bundle/javascript
+	url = https://github.com/pangloss/vim-javascript.git
