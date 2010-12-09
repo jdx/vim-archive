@@ -1,0 +1,3 @@
+[submodule]
+    path = bundle/cocoa
+    url = https://github.com/msanders/cocoa.vim.git
