@@ -10,3 +10,6 @@
 [submodule "bundle/status"]
 	path = bundle/status
 	url = git@github.com:dickeytk/status.vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
