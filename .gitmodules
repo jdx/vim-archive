@@ -31,3 +31,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/indent_object"]
+	path = bundle/indent_object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
