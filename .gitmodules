@@ -34,3 +34,6 @@
 [submodule "bundle/indent_object"]
 	path = bundle/indent_object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
+[submodule "bundle/rvm"]
+	path = bundle/rvm
+	url = https://github.com/csexton/rvm.vim.git
