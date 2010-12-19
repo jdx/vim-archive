@@ -34,3 +34,6 @@
 [submodule "bundle/indent_object"]
 	path = bundle/indent_object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
+[submodule "bundle/cucumber"]
+	path = bundle/cucumber
+	url = https://github.com/tpope/vim-cucumber.git
