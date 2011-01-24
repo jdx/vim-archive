@@ -73,12 +73,10 @@ function s:setupMarkup()
 endfunction
 
 " Ruby
-au BufRead,BufNewFile FileType ruby haml sass scss less set tabstop=2
-au BufRead,BufNewFile FileType ruby haml sass scss less set shiftwidth=2
-au BufRead,BufNewFile FileType ruby haml sass scss less set softtabstop=2
-
-" Thorfile, Rakefile and Gemfile are Ruby
-au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
+au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.prawn,haml} set ft=ruby
+au BufRead,BufNewFile FileType ruby set tabstop=2
+au BufRead,BufNewFile FileType ruby set shiftwidth=2
+au BufRead,BufNewFile FileType ruby set softtabstop=2
 
 " md, markdown, and mk are markdown and define buffer-local preview
 au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
@@ -140,3 +138,5 @@ set directory=~/.vim/backup
 nmap <C-V> "+gP
 imap <C-V> <ESC><C-V>i
 vmap <C-C> "+y
+
+set vb t_vb=""
