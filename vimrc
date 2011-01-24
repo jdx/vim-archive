@@ -9,6 +9,15 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+" Map arrow keys
+map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+
+" Allow switching buffers without saving
+set hidden
+
 set number
 set ruler
 syntax on
