@@ -40,3 +40,6 @@
 [submodule "bundle/rvm"]
 	path = bundle/rvm
 	url = http://github.com/csexton/rvm.vim.git
+[submodule "bundle/extradite"]
+	path = bundle/extradite
+	url = git://github.com/int3/vim-extradite.git
