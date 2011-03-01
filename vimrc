@@ -57,6 +57,9 @@ let g:CommandTMaxHeight=20
 " Fugitive configuration
 map <Leader>g :Gstatus<CR>
 
+" Extradite configuration
+map <Leader>l :Extradite<CR>
+
 " ZoomWin configuration
 map <Leader>z :ZoomWin<CR>
 
