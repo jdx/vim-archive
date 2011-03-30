@@ -84,9 +84,6 @@ function s:setupMarkup()
   map <buffer> <Leader>p :Mm <CR>
 endfunction
 
-" Python
-au FileType python compiler pylint
-
 " Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.prawn,haml} set ft=ruby
 au BufRead,BufNewFile FileType ruby set tabstop=2
