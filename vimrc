@@ -28,6 +28,8 @@ let g:syntastic_auto_loc_list=1
 
 " Whitespace stuff
 set nowrap
+set wm=0
+set tw=0
 set fo-=t "Unset automatic wrapping
 set tabstop=4
 set shiftwidth=4
@@ -135,7 +137,7 @@ set modelines=10
 set cursorline
 
 " Default color scheme
-color jellybeans+
+colo molokai
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))

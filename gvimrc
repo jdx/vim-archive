@@ -18,8 +18,7 @@ if has("gui_macvim")
   map <D-/> <plug>NERDCommenterToggle<CR>
 
   " Use Monaco
-  set guifont=Monaco:h10
-  set guifont noantialias
+  set guifont=Monaco:h12
 
 else
   " Ubuntu?
@@ -52,7 +51,7 @@ set guioptions-=r
 set guioptions-=L
 
 " Default gui color scheme
-color jellybeans+
+color molokai
 
 " ConqueTerm wrapper
 function StartTerm()
