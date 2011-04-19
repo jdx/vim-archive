@@ -60,7 +60,7 @@ let g:CommandTMaxHeight=20
 map <Leader>g :Gstatus<CR>
 
 " Extradite configuration
-map <Leader>l :Extradite<CR>
+map <Leader>l :Extradite!<CR>
 
 " ZoomWin configuration
 map <Leader>z :ZoomWin<CR>
