@@ -63,9 +63,6 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
-" Python
-au BufRead,BufNewFile FileType python setl nosmartindent
-
 " Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.prawn,haml} set ft=ruby
 au BufRead,BufNewFile FileType ruby set tabstop=2
