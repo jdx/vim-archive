@@ -27,7 +27,6 @@ let g:syntastic_auto_loc_list=1
 set nowrap
 set wm=0
 set tw=0
-set fo-=t "Unset automatic wrapping
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -64,15 +63,11 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
-function s:setupWrapping()
+function s:setupMarkup()
   set wrap
   set wm=2
   set tw=80
   set fo+=t
-endfunction
-
-function s:setupMarkup()
-  call s:setupWrapping()
   map <buffer> <Leader>p :Mm <CR>
 endfunction
 
