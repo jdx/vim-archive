@@ -87,9 +87,6 @@ au BufRead,BufNewFile FileType ruby set softtabstop=2
 
 " md, markdown, and mk are markdown and define buffer-local preview
 au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
-
-au BufRead,BufNewFile *.txt call s:setupWrapping()
-
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
