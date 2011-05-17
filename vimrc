@@ -15,9 +15,6 @@ map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l
 
-" Allow switching buffers without saving
-set hidden
-
 set number
 set ruler
 syntax on
@@ -45,16 +42,9 @@ set incsearch
 set ignorecase
 set smartcase
 
-" Tab completion
-set wildmode=list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc
-
 " NERDTree configuration
 let NERDTreeIgnore=['\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
-
-" Command-T configuration
-let g:CommandTMaxHeight=20
 
 " Fugitive configuration
 map <Leader>g :Gstatus<CR>
@@ -85,6 +75,9 @@ function s:setupMarkup()
   call s:setupWrapping()
   map <buffer> <Leader>p :Mm <CR>
 endfunction
+
+" Python
+au BufRead,BufNewFile FileType python setl nosmartindent
 
 " Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.prawn,haml} set ft=ruby
@@ -118,9 +111,6 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Sudo to write
 cmap w!! w !sudo tee % >/dev/null
 
-" let Ack search all files
-let g:ackprg="ack -H --nocolor --nogroup --column --all"
-
 " Unimpaired configuration
 " Bubble single lines
 nmap <C-Up> [e
@@ -139,11 +129,6 @@ set cursorline
 " Default color scheme
 colo molokai
 
-" Include user's local vim config
-if filereadable(expand("~/.vimrc.local"))
-  source ~/.vimrc.local
-endif
-
 "Directories for swp files
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
@@ -154,3 +139,4 @@ imap <C-V> <ESC><C-V>i
 vmap <C-C> "+y
 
 set vb t_vb=""
+
