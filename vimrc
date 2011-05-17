@@ -63,14 +63,6 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
-function s:setupMarkup()
-  set wrap
-  set wm=2
-  set tw=80
-  set fo+=t
-  map <buffer> <Leader>p :Mm <CR>
-endfunction
-
 " Python
 au BufRead,BufNewFile FileType python setl nosmartindent
 
@@ -79,9 +71,6 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.prawn,haml} set ft=
 au BufRead,BufNewFile FileType ruby set tabstop=2
 au BufRead,BufNewFile FileType ruby set shiftwidth=2
 au BufRead,BufNewFile FileType ruby set softtabstop=2
-
-" md, markdown, and mk are markdown and define buffer-local preview
-au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
