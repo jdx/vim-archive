@@ -63,11 +63,6 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
-" Ruby
-au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.prawn,haml} set ft=ruby
-au BufRead,BufNewFile FileType ruby set tabstop=2
-au BufRead,BufNewFile FileType ruby set shiftwidth=2
-au BufRead,BufNewFile FileType ruby set softtabstop=2
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
@@ -117,4 +112,3 @@ imap <C-V> <ESC><C-V>i
 vmap <C-C> "+y
 
 set vb t_vb=""
-
