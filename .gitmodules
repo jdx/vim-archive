@@ -43,9 +43,6 @@
 [submodule "bundle/extradite"]
 	path = bundle/extradite
 	url = git://github.com/int3/vim-extradite.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/css-color"]
 	path = bundle/css-color
 	url = https://github.com/skammer/vim-css-color.git
