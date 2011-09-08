@@ -18,7 +18,7 @@ if has("gui_macvim")
   map <D-/> <plug>NERDCommenterToggle<CR>
 
   " Use Monaco
-  set guifont=Monaco:h12
+  set guifont=Monaco:h14
 
 else
   " Ubuntu?
