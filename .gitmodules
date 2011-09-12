@@ -1,6 +1,3 @@
-[submodule "bundle/cocoa"]
-	path = bundle/cocoa
-	url = http://github.com/msanders/cocoa.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
@@ -31,21 +28,12 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/indent_object"]
-	path = bundle/indent_object
-	url = https://github.com/michaeljsmith/vim-indent-object.git
 [submodule "bundle/cucumber"]
 	path = bundle/cucumber
 	url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/rvm"]
 	path = bundle/rvm
 	url = http://github.com/csexton/rvm.vim.git
-[submodule "bundle/extradite"]
-	path = bundle/extradite
-	url = git://github.com/int3/vim-extradite.git
-[submodule "bundle/css-color"]
-	path = bundle/css-color
-	url = https://github.com/skammer/vim-css-color.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://git.wincent.com/command-t.git
