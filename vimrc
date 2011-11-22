@@ -53,12 +53,6 @@ map <Leader>g :Gstatus<CR>
 " Extradite configuration
 map <Leader>l :Extradite!<CR>
 
-" ZoomWin configuration
-map <Leader>z :ZoomWin<CR>
-
-" CTags
-map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
-
 " Remember last location in file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
