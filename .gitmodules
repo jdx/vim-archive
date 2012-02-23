@@ -33,7 +33,7 @@
 	url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/rvm"]
 	path = bundle/rvm
-	url = http://github.com/csexton/rvm.vim.git
+	url = https://github.com/tpope/vim-rvm.git
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/tpope/vim-rails.git
