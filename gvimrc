@@ -51,7 +51,8 @@ set guioptions-=r
 set guioptions-=L
 
 " Default gui color scheme
-color molokai
+set background=light
+colorscheme solarized
 
 " ConqueTerm wrapper
 function StartTerm()

@@ -84,7 +84,8 @@ set modelines=10
 set cursorline
 
 " Default color scheme
-colo molokai
+set background=dark
+colo solarized
 
 "Directories for swp files
 set backupdir=~/.vim/backup
