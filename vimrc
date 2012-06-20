@@ -1,6 +1,8 @@
 " Pathogen
 call pathogen#infect()
 
+set shell=/bin/sh
+
 set nocompatible
 let mapleader = ","
 
