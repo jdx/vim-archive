@@ -52,7 +52,7 @@ set guioptions-=L
 
 " Default gui color scheme
 set background=light
-colorscheme solarized
+colorscheme jellybeans+
 
 " ConqueTerm wrapper
 function StartTerm()

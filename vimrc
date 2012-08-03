@@ -87,7 +87,7 @@ set cursorline
 
 " Default color scheme
 set background=dark
-colo solarized
+colo jellybeans+
 
 "Directories for swp files
 set backupdir=~/.vim/backup
